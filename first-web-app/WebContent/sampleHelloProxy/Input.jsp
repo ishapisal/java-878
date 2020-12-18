@@ -1,7 +1,7 @@
 <%@page contentType="text/html;charset=UTF-8"%>
 <HTML>
 <HEAD>
-<TITLE>Inputs</TITLE>
+<TITLE>INPUTS</TITLE>
 </HEAD>
 <BODY>
 <H1>Inputs</H1>
@@ -19,7 +19,7 @@ case 2:
 valid = false;
 %>
 <FORM METHOD="POST" ACTION="Result.jsp" TARGET="result">
-<INPUT TYPE="HIDDEN" NAME="method" VALUE="<%=org.eclipse.jst.ws.util.JspUtils.markup(method)%>">
+<INPUT TYPE="HIDDEN" NAME="method" VALUE="<%=org.eclipse.jsp.ws.util.JspUtils.markup(method)%>">
 <BR>
 <INPUT TYPE="SUBMIT" VALUE="Invoke">
 <INPUT TYPE="RESET" VALUE="Clear">
