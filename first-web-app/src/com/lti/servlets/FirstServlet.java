@@ -17,6 +17,8 @@ public class FirstServlet extends HttpServlet {
    
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
 		throws ServletException, IOException{
+		
+		System.out.println("Hello ik lots of errors");
 			
 			response.setContentType("text/html");
 			PrintWriter out = response.getWriter();
