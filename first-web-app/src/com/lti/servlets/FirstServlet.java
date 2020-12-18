@@ -44,7 +44,7 @@ public class FirstServlet extends HttpServlet {
 				session.setAttribute("name", uname);
 			}
 			else {
-				
+				System.out.println("Request");
 				out.println("Incorrect password and username....");
 				RequestDispatcher rd = request.getRequestDispatcher("/index.html");
 				rd.include(request, response);
