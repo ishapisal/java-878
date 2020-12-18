@@ -23,6 +23,7 @@ public class WelcomeServlet extends HttpServlet {
 	String name = (String) session.getAttribute("name");
 	
 	out.println("<h1>Login successful.." + name + "</h1>");
+	System.out.println("Hello Git Hub");
 	
 	}
 
